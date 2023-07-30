@@ -1,0 +1,334 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "imageUrl": "https://example.com/electronics.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "imageUrl": "https://example.com/clothing.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Home & Kitchen",
+      "imageUrl": "https://example.com/home_kitchen.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Books & Literature",
+      "imageUrl": "https://example.com/books_literature.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sports & Outdoors",
+      "imageUrl": "https://example.com/sports_outdoors.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Beauty & Personal Care",
+      "imageUrl": "https://example.com/beauty_personal_care.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Toys & Games",
+      "imageUrl": "https://example.com/toys_games.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Health & Wellness",
+      "imageUrl": "https://example.com/health_wellness.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Automotive",
+      "imageUrl": "https://example.com/automotive.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Pet Supplies",
+      "imageUrl": "https://example.com/pet_supplies.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 12",
+      "price": 999,
+      "categoryId": 1,
+      "features": [
+        "6.1-inch Super Retina XDR display",
+        "A14 Bionic chip",
+        "Dual-camera system",
+        "Face ID",
+        "iOS 14"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S21",
+      "price": 899,
+      "categoryId": 1,
+      "features": [
+        "6.2-inch Dynamic AMOLED 2X display",
+        "Exynos 2100",
+        "Triple-camera system",
+        "In-display fingerprint sensor",
+        "Android 11"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "MacBook Pro 13\"",
+      "price": 1299,
+      "categoryId": 2,
+      "features": [
+        "Intel Core i5",
+        "8GB RAM",
+        "256GB SSD",
+        "13-inch Retina display",
+        "macOS Monterey"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Dell XPS 15",
+      "price": 1699,
+      "categoryId": 2,
+      "features": [
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "15.6-inch 4K UHD display",
+        "Windows 11"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sony Alpha a7 III",
+      "price": 1999,
+      "categoryId": 3,
+      "features": [
+        "Full-frame mirrorless",
+        "24.2MP",
+        "4K video",
+        "5-axis in-body stabilization"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Canon EOS R6",
+      "price": 2499,
+      "categoryId": 3,
+      "features": [
+        "Full-frame mirrorless",
+        "20.1MP",
+        "4K video",
+        "5-axis in-body IS"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bose QuietComfort 45",
+      "price": 349,
+      "categoryId": 4,
+      "features": [
+        "Active Noise Cancelling",
+        "Bluetooth",
+        "24-hour battery life",
+        "Alexa voice control"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Sony WH-1000XM4",
+      "price": 299,
+      "categoryId": 4,
+      "features": [
+        "Noise Cancelling",
+        "Bluetooth",
+        "30-hour battery life",
+        "Google Assistant",
+        "Alexa"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Fitbit Versa 3",
+      "price": 229,
+      "categoryId": 5,
+      "features": [
+        "AMOLED display",
+        "Heart rate monitoring",
+        "Built-in GPS",
+        "Sleep tracking",
+        "5+ days battery life"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Apple Watch Series 6",
+      "price": 399,
+      "categoryId": 5,
+      "features": [
+        "Always-On Retina display",
+        "Blood oxygen monitoring",
+        "ECG app",
+        "Sleep tracking",
+        "18-hour battery life"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sony BRAVIA OLED A8H",
+      "price": 1899,
+      "categoryId": 6,
+      "features": [
+        "55-inch 4K OLED display",
+        "Acoustic Surface Audio",
+        "Android TV",
+        "HDR10, Dolby Vision, HLG"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Samsung Q80A QLED",
+      "price": 1499,
+      "categoryId": 6,
+      "features": [
+        "65-inch 4K QLED display",
+        "Quantum HDR 12X",
+        "Quantum Processor 4K",
+        "Alexa, Bixby, Google Assistant"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Logitech MX Master 3",
+      "price": 99,
+      "categoryId": 7,
+      "features": [
+        "Advanced ergonomic design",
+        "Customizable buttons",
+        "Magspeed scrolling",
+        "Easy-Switch technology"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Razer DeathAdder V2",
+      "price": 69,
+      "categoryId": 7,
+      "features": [
+        "True 20,000 DPI Focus+ optical sensor",
+        "Razer Optical Mouse Switches",
+        "Speedflex cable",
+        "6 programmable buttons"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "JBL Charge 5",
+      "price": 179,
+      "categoryId": 8,
+      "features": [
+        "Portable Bluetooth speaker",
+        "JBL Pro Sound",
+        "IP67 waterproof",
+        "20 hours of playtime",
+        "Powerbank function"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "UE Megaboom 3",
+      "price": 199,
+      "categoryId": 8,
+      "features": [
+        "360-degree sound",
+        "Deep bass",
+        "IP67 waterproof",
+        "15 hours of playtime",
+        "Floats on water"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "DJI Mavic Air 2",
+      "price": 799,
+      "categoryId": 9,
+      "features": [
+        "4K/60fps video",
+        "48MP photos",
+        "3-axis gimbal",
+        "34-minute flight time",
+        "Obstacle sensing system"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "GoPro HERO9 Black",
+      "price": 449,
+      "categoryId": 9,
+      "features": [
+        "5K video",
+        "20MP photos",
+        "HyperSmooth 3.0",
+        "Waterproof up to 33ft",
+        "Front-facing LCD screen"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Xbox Series X",
+      "price": 499,
+      "categoryId": 10,
+      "features": [
+        "4K gaming at 120fps",
+        "Ray tracing technology",
+        "1TB SSD",
+        "Backward compatibility",
+        "Xbox Game Pass"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "PlayStation 5",
+      "price": 499,
+      "categoryId": 10,
+      "features": [
+        "4K gaming at 120fps",
+        "Ray tracing support",
+        "825GB SSD",
+        "Ultra HD Blu-ray",
+        "PlayStation Plus"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Sony WH-1000XM4",
+      "price": 349,
+      "categoryId": 4,
+      "features": [
+        "Active Noise Cancelling",
+        "Bluetooth",
+        "30-hour battery life",
+        "Google Assistant",
+        "Alexa"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Bose QuietComfort 45",
+      "price": 299,
+      "categoryId": 4,
+      "features": [
+        "Active Noise Cancelling",
+        "Bluetooth",
+        "24-hour battery life",
+        "Alexa voice control"
+      ]
+    }
+  ]
+}
