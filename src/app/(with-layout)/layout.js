@@ -5,7 +5,7 @@ const WithLayout = ({ children }) => {
     <div className="mx-5">
       <Navbar />
       {children}
-      <footer>Follter</footer>
+      <footer>Footer</footer>
     </div>
   );
 };

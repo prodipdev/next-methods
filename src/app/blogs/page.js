@@ -1,4 +1,6 @@
+// "use client";
 import Link from "next/link";
+// import { useRouter } from "next/navigation";
 
 export const metadata = {
   title: "Blogs | Next Hero",
@@ -32,6 +34,8 @@ const blogs = [
   },
 ];
 const BlogsPage = () => {
+  //   const router = useRouter() ;
+
   return (
     <div className="container mx-auto">
       {blogs.map(({ id, year, title }) => (
@@ -42,6 +46,7 @@ const BlogsPage = () => {
             query: { title: title },
           }}
           key={id}
+          //   onClick={() => router.push(`/blogs/${year}/${id}?title=${title}`)}
         >
           {title}
         </Link>
